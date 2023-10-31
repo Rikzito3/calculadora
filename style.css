@@ -18,22 +18,24 @@ body {
 }
 
 .principal {
-  width: 30%;
+  width: 60vh;
   height: 99%;
   display: flex;
   flex-direction: column;
+  background-color: rgba(30, 29, 29, 0.468);
+  border-radius: 5vh;
 }
 
 .cima {
   width: 100%;
-  height: 10%;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .setas {
-  width: 15%;
+  width: 10vh;
   height: 100%;
   display: flex;
   align-items: center;
@@ -41,7 +43,7 @@ body {
 }
 
 .igual {
-  width: 15%;
+  width: 10vh;
   height: 100%;
   display: flex;
   align-items: center;
@@ -49,7 +51,7 @@ body {
 }
 
 .menu {
-  width: 15%;
+  width: 10vh;
   height: 100%;
   display: flex;
   align-items: center;
@@ -57,7 +59,7 @@ body {
 }
 
 .home {
-  width: 15%;
+  width: 10vh;
   height: 100%;
   display: flex;
   align-items: center;
@@ -65,7 +67,7 @@ body {
 }
 
 .tres-pontos {
-  width: 15%;
+  width: 10vh;
   height: 100%;
   display: flex;
   align-items: center;
@@ -79,14 +81,14 @@ img {
 
 .meio {
   width: 100%;
-  height: 35%;
+  height: 35vh;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
 .mostrar-resultado {
-  width: 96%;
+  width: 96vh;
   height: 7vh;
   text-align: right;
   color: white;
@@ -102,7 +104,7 @@ img {
 
 .linha {
   width: 100%;
-  height: 25%;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -118,7 +120,7 @@ img {
   color: #ff4500;
   width: 100%;
   height: 100%;
-  font-size: 170%;
+  font-size: 5vh;
   border: none;
 }
 
@@ -134,7 +136,7 @@ img {
   color: transparent;
   width: 95%;
   height: 95%;
-  font-size: 1%;
+  font-size: 1vh;
   border: none;
 }
 
@@ -150,7 +152,7 @@ img {
   color: white;
   width: 100%;
   height: 100%;
-  font-size: 180%;
+  font-size: 5vh;
   border: none;
 }
 
@@ -166,7 +168,7 @@ img {
   color: white;
   width: 100%;
   height: 100%;
-  font-size: 250%;
+  font-size: 7vh;
   border: none;
 }
 
@@ -182,7 +184,7 @@ img {
   color: white;
   width: 100%;
   height: 100%;
-  font-size: 200%;
+  font-size: 5vh;
   border: none;
 }
 
@@ -194,8 +196,8 @@ img {
 }
 
 .cubos {
-  width: 100%;
-  height: 100%;
+  width: 10vh;
+  height: 10vh;
   background-color: transparent;
   color: #ff4500;
   border: none;
@@ -214,7 +216,7 @@ img {
   background-color: transparent;
   color: white;
   border: none;
-  font-size: 160%;
+  font-size: 5vh;
 }
 
 .multiplicar:hover {
@@ -230,7 +232,7 @@ img {
   background-color: transparent;
   color: white;
   border: none;
-  font-size: 200%;
+  font-size: 7vh;
 }
 
 .subtrair:hover {
@@ -246,7 +248,7 @@ img {
   background-color: transparent;
   color: white;
   border: none;
-  font-size: 200%;
+  font-size: 6vh;
 }
 
 .adicao:hover {
@@ -285,7 +287,7 @@ img {
   height: 100%;
   background-color: transparent;
   color: white;
-  font-size: 200%;
+  font-size: 6vh;
   border: none;
 }
 

@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal {
+  width: 30%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cima {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.setas {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.igual {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tres-pontos {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 45%;
+  height: 45%;
+}
+
+.meio {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.mostrar-resultado {
+  width: 96%;
+  height: 7vh;
+  text-align: right;
+  color: white;
+  font-size: 5vh;
+}
+
+.baixo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+}
+
+.linha {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.operacao {
+  width: 100%;
+  height: 100%;
+}
+
+.AC {
+  background-color: transparent;
+  color: #ff4500;
+  width: 100%;
+  height: 100%;
+  font-size: 170%;
+  border: none;
+}
+
+.AC:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.apagar {
+  background-color: transparent;
+  color: transparent;
+  width: 95%;
+  height: 95%;
+  font-size: 1%;
+  border: none;
+}
+
+.apagar:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.porcentagem {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 180%;
+  border: none;
+}
+
+.porcentagem:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.dividir {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 250%;
+  border: none;
+}
+
+.dividir:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.numero {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 200%;
+  border: none;
+}
+
+.numero:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.cubos {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #ff4500;
+  border: none;
+}
+
+.cubos:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.multiplicar {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 160%;
+}
+
+.multiplicar:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.subtrair {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 200%;
+}
+
+.subtrair:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.adicao {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 200%;
+}
+
+.adicao:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#resultado {
+  background-color: transparent;
+  color: white;
+  width: 40vh;
+  height: 10vh;
+  text-align: right;
+  font-size: 4vh;
+  border: none;
+  overflow: hidden;
+  display: flex;
+  margin-right: 6vh;
+}
+
+.resultado2 {
+  width: 13vh;
+  height: 13vh;
+  background-color: #ff4500;
+  border-radius: 100%;
+  color: white;
+  border: none;
+  font-size: 5vh;
+  margin: 0 0 0 1.5vh;
+}
+
+.virgula {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  font-size: 200%;
+  border: none;
+}
+
+.virgula:hover {
+  background-color: rgba(22, 22, 22, 0.696);
+  border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
